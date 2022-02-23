@@ -1,0 +1,47 @@
+<!-- <div class="products">
+    <div class="product" *ngFor="let item of products">
+        <mat-card >
+            <p>{{item.title}}</p>
+            
+            <p>Rs. <strong>{{item.price}}</strong></p>
+            <img src={{item.image}}>
+            <button (click)="addToCart(item)">Add To Cart</button>
+        </mat-card>
+    </div>
+</div> -->
+<div class="products">
+    <div class="product" *ngFor="let item of products">
+        <mat-card >
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <p>{{item.title}}</p>
+                    <img src={{item.image}} alt="Product" style="width:200px;height:200px;">
+                  </div>
+                  <div class="flip-card-back">
+                    <p style="color:black;"><strong>{{item.title}}</strong></p>
+            
+                    <p style="color:black;">Rs. <strong>{{item.price}}</strong></p> 
+                    <br>
+                    <br><br>
+                    <button (click)="addToCart(item)">Add To Cart</button>  
+                    <br>
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                    <style>
+                        .checked {
+                          color: orange;
+                        }
+                        </style>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    
+   
+                  </div>
+                </div>
+              </div>
+        </mat-card>
+    </div>
+</div>

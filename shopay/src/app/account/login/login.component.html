@@ -1,0 +1,71 @@
+<p>login works!</p>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+<body>
+  <div class=" flex-r container">
+    <div class="flex-r login-wrapper">
+      <div class="login-text">
+        <div class="logo">
+          <span><i class="fab fa-speakap"></i></span>
+          <span>Shopay</span>
+        </div>
+        <h1>Sign Up</h1>
+        <p>It's not long before you embark on this journey! </p>
+
+        <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+          <div class="input-box">
+            <!-- <input type="'email" id="inputEmail" class="label"  -->
+            <span class="label">E-mail</span>
+            <div class=" flex-r input">
+              <input formControlName="email" type="email" id="inputEmail" placeholder="name@abc.com">
+              
+              <i class="fas fa-at"></i>
+            </div>
+            <span class="text-danger" *ngIf="loginForm.get('email').invalid 
+              && loginForm.get('email').touched && loginForm.get('email').errors['required']">
+            Email address is required
+          </span>
+          <span class="text-danger" *ngIf="loginForm.get('email').invalid 
+              && loginForm.get('email').touched && loginForm.get('email').errors['pattern']">
+            Email address is not valid
+          </span>
+          </div>
+
+          <div class="input-box">
+            <span class="label">Password</span>
+            <div class="flex-r input">
+              <input formControlName="password" type="password" placeholder="8+ (a, A, 1, #)">
+              
+              <i class="fas fa-lock"></i>
+            </div>
+            <span class="text-danger" *ngIf="loginForm.get('password').invalid 
+                && loginForm.get('password').touched && loginForm.get('email').errors['required']">
+                Password is required
+              </span>
+          </div>
+
+          <div class="check">
+            <input type="checkbox" name="" id="">
+            <span>I've read and agree with T&C</span>
+          </div>
+
+          <!-- <input class="btn" type="submit" value="Create an Account"> -->
+          <button [disabled]="loginForm.invalid" class="btn" type="submit">Sign In</button>
+          <input class="btn" type="submit" value="Continue with Facebook">
+          <span class="extra-line">
+            <span>Already have an account?</span>
+            <a href="#">Sign In</a>
+          </span>
+        </form>
+
+      </div>
+      <div class="col-4">
+          <p>Form Status:{{loginForm.status}}</p>
+          <p>Email Status: {{loginForm.get('email').status}}</p>
+          <p>Email Touched: {{loginForm.get('email').touched}}</p>
+          <p>Email Dirty: {{loginForm.get('email').dirty}}</p>
+          <pre>{{loginForm.value | json} }</pre>
+      </div>
+    </div>
+  </div>
+</body>

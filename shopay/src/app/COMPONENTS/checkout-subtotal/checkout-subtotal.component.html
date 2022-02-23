@@ -1,0 +1,9 @@
+<div class="subtotal" *ngIf="shoppingCart.getCartLength()> 0">
+    <p>Subtotal:({{shoppingCart.getCartLength()}} items)<strong>Rs.{{shoppingCart.getTotal()}}</strong></p>
+    
+    <!-- <button> Proceed to checkout</button> -->
+    <!-- <a href="shopay\src\app\PAGES\payment\payment.component.html" target="_blank">This is a link</a> -->
+    <div routerLink="/payment" class="pay">
+         <button> Proceed to checkout</button> 
+      </div>
+</div>
