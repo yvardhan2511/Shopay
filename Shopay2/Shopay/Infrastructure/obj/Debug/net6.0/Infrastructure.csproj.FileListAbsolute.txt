@@ -1,0 +1,75 @@
+/Users/ranu.singh/Documents/Shopay/Infrastructure/bin/Debug/net6.0/Infrastructure.deps.json
+/Users/ranu.singh/Documents/Shopay/Infrastructure/bin/Debug/net6.0/Infrastructure.dll
+/Users/ranu.singh/Documents/Shopay/Infrastructure/bin/Debug/net6.0/ref/Infrastructure.dll
+/Users/ranu.singh/Documents/Shopay/Infrastructure/bin/Debug/net6.0/Infrastructure.pdb
+/Users/ranu.singh/Documents/Shopay/Infrastructure/bin/Debug/net6.0/Core.dll
+/Users/ranu.singh/Documents/Shopay/Infrastructure/bin/Debug/net6.0/Core.pdb
+/Users/ranu.singh/Documents/Shopay/Infrastructure/obj/Debug/net6.0/Infrastructure.csproj.AssemblyReference.cache
+/Users/ranu.singh/Documents/Shopay/Infrastructure/obj/Debug/net6.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ranu.singh/Documents/Shopay/Infrastructure/obj/Debug/net6.0/Infrastructure.AssemblyInfoInputs.cache
+/Users/ranu.singh/Documents/Shopay/Infrastructure/obj/Debug/net6.0/Infrastructure.AssemblyInfo.cs
+/Users/ranu.singh/Documents/Shopay/Infrastructure/obj/Debug/net6.0/Infrastructure.csproj.CoreCompileInputs.cache
+/Users/ranu.singh/Documents/Shopay/Infrastructure/obj/Debug/net6.0/Infrastructure.csproj.CopyComplete
+/Users/ranu.singh/Documents/Shopay/Infrastructure/obj/Debug/net6.0/Infrastructure.dll
+/Users/ranu.singh/Documents/Shopay/Infrastructure/obj/Debug/net6.0/ref/Infrastructure.dll
+/Users/ranu.singh/Documents/Shopay/Infrastructure/obj/Debug/net6.0/Infrastructure.pdb
+/Users/ranu.singh/Documents/Shopay 2/Infrastructure/bin/Debug/net6.0/Infrastructure.deps.json
+/Users/ranu.singh/Documents/Shopay 2/Infrastructure/bin/Debug/net6.0/Infrastructure.dll
+/Users/ranu.singh/Documents/Shopay 2/Infrastructure/bin/Debug/net6.0/ref/Infrastructure.dll
+/Users/ranu.singh/Documents/Shopay 2/Infrastructure/bin/Debug/net6.0/Infrastructure.pdb
+/Users/ranu.singh/Documents/Shopay 2/Infrastructure/bin/Debug/net6.0/Core.dll
+/Users/ranu.singh/Documents/Shopay 2/Infrastructure/bin/Debug/net6.0/Core.pdb
+/Users/ranu.singh/Documents/Shopay 2/Infrastructure/obj/Debug/net6.0/Infrastructure.csproj.AssemblyReference.cache
+/Users/ranu.singh/Documents/Shopay 2/Infrastructure/obj/Debug/net6.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ranu.singh/Documents/Shopay 2/Infrastructure/obj/Debug/net6.0/Infrastructure.AssemblyInfoInputs.cache
+/Users/ranu.singh/Documents/Shopay 2/Infrastructure/obj/Debug/net6.0/Infrastructure.AssemblyInfo.cs
+/Users/ranu.singh/Documents/Shopay 2/Infrastructure/obj/Debug/net6.0/Infrastructure.csproj.CoreCompileInputs.cache
+/Users/ranu.singh/Documents/Shopay 2/Infrastructure/obj/Debug/net6.0/Infrastructure.csproj.CopyComplete
+/Users/ranu.singh/Documents/Shopay 2/Infrastructure/obj/Debug/net6.0/Infrastructure.dll
+/Users/ranu.singh/Documents/Shopay 2/Infrastructure/obj/Debug/net6.0/ref/Infrastructure.dll
+/Users/ranu.singh/Documents/Shopay 2/Infrastructure/obj/Debug/net6.0/Infrastructure.pdb
+/Users/ranu.singh/Documents/Shopay 8.55.24 PM/Infrastructure/bin/Debug/net6.0/Infrastructure.deps.json
+/Users/ranu.singh/Documents/Shopay 8.55.24 PM/Infrastructure/bin/Debug/net6.0/Infrastructure.dll
+/Users/ranu.singh/Documents/Shopay 8.55.24 PM/Infrastructure/bin/Debug/net6.0/ref/Infrastructure.dll
+/Users/ranu.singh/Documents/Shopay 8.55.24 PM/Infrastructure/bin/Debug/net6.0/Infrastructure.pdb
+/Users/ranu.singh/Documents/Shopay 8.55.24 PM/Infrastructure/bin/Debug/net6.0/Core.dll
+/Users/ranu.singh/Documents/Shopay 8.55.24 PM/Infrastructure/bin/Debug/net6.0/Core.pdb
+/Users/ranu.singh/Documents/Shopay 8.55.24 PM/Infrastructure/obj/Debug/net6.0/Infrastructure.csproj.AssemblyReference.cache
+/Users/ranu.singh/Documents/Shopay 8.55.24 PM/Infrastructure/obj/Debug/net6.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ranu.singh/Documents/Shopay 8.55.24 PM/Infrastructure/obj/Debug/net6.0/Infrastructure.AssemblyInfoInputs.cache
+/Users/ranu.singh/Documents/Shopay 8.55.24 PM/Infrastructure/obj/Debug/net6.0/Infrastructure.AssemblyInfo.cs
+/Users/ranu.singh/Documents/Shopay 8.55.24 PM/Infrastructure/obj/Debug/net6.0/Infrastructure.csproj.CoreCompileInputs.cache
+/Users/ranu.singh/Documents/Shopay 8.55.24 PM/Infrastructure/obj/Debug/net6.0/Infrastructure.csproj.CopyComplete
+/Users/ranu.singh/Documents/Shopay 8.55.24 PM/Infrastructure/obj/Debug/net6.0/Infrastructure.dll
+/Users/ranu.singh/Documents/Shopay 8.55.24 PM/Infrastructure/obj/Debug/net6.0/ref/Infrastructure.dll
+/Users/ranu.singh/Documents/Shopay 8.55.24 PM/Infrastructure/obj/Debug/net6.0/Infrastructure.pdb
+C:\Users\ser\Downloads\Shopay 2\Shopay\Infrastructure\bin\Debug\net6.0\Infrastructure.deps.json
+C:\Users\ser\Downloads\Shopay 2\Shopay\Infrastructure\bin\Debug\net6.0\Infrastructure.dll
+C:\Users\ser\Downloads\Shopay 2\Shopay\Infrastructure\bin\Debug\net6.0\ref\Infrastructure.dll
+C:\Users\ser\Downloads\Shopay 2\Shopay\Infrastructure\bin\Debug\net6.0\Infrastructure.pdb
+C:\Users\ser\Downloads\Shopay 2\Shopay\Infrastructure\bin\Debug\net6.0\Core.dll
+C:\Users\ser\Downloads\Shopay 2\Shopay\Infrastructure\bin\Debug\net6.0\Core.pdb
+C:\Users\ser\Downloads\Shopay 2\Shopay\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\ser\Downloads\Shopay 2\Shopay\Infrastructure\obj\Debug\net6.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ser\Downloads\Shopay 2\Shopay\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\ser\Downloads\Shopay 2\Shopay\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfo.cs
+C:\Users\ser\Downloads\Shopay 2\Shopay\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\ser\Downloads\Shopay 2\Shopay\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CopyComplete
+C:\Users\ser\Downloads\Shopay 2\Shopay\Infrastructure\obj\Debug\net6.0\Infrastructure.dll
+C:\Users\ser\Downloads\Shopay 2\Shopay\Infrastructure\obj\Debug\net6.0\ref\Infrastructure.dll
+C:\Users\ser\Downloads\Shopay 2\Shopay\Infrastructure\obj\Debug\net6.0\Infrastructure.pdb
+C:\Users\ser\Downloads\Shopay2\Shopay\Infrastructure\bin\Debug\net6.0\Infrastructure.deps.json
+C:\Users\ser\Downloads\Shopay2\Shopay\Infrastructure\bin\Debug\net6.0\Infrastructure.dll
+C:\Users\ser\Downloads\Shopay2\Shopay\Infrastructure\bin\Debug\net6.0\ref\Infrastructure.dll
+C:\Users\ser\Downloads\Shopay2\Shopay\Infrastructure\bin\Debug\net6.0\Infrastructure.pdb
+C:\Users\ser\Downloads\Shopay2\Shopay\Infrastructure\bin\Debug\net6.0\Core.dll
+C:\Users\ser\Downloads\Shopay2\Shopay\Infrastructure\bin\Debug\net6.0\Core.pdb
+C:\Users\ser\Downloads\Shopay2\Shopay\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\ser\Downloads\Shopay2\Shopay\Infrastructure\obj\Debug\net6.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ser\Downloads\Shopay2\Shopay\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\ser\Downloads\Shopay2\Shopay\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfo.cs
+C:\Users\ser\Downloads\Shopay2\Shopay\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\ser\Downloads\Shopay2\Shopay\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CopyComplete
+C:\Users\ser\Downloads\Shopay2\Shopay\Infrastructure\obj\Debug\net6.0\Infrastructure.dll
+C:\Users\ser\Downloads\Shopay2\Shopay\Infrastructure\obj\Debug\net6.0\ref\Infrastructure.dll
+C:\Users\ser\Downloads\Shopay2\Shopay\Infrastructure\obj\Debug\net6.0\Infrastructure.pdb

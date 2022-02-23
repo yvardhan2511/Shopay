@@ -1,0 +1,60 @@
+/Users/ranu.singh/Documents/Shopay 2/Core/bin/Debug/net6.0/Core.deps.json
+/Users/ranu.singh/Documents/Shopay 2/Core/bin/Debug/net6.0/Core.dll
+/Users/ranu.singh/Documents/Shopay 2/Core/bin/Debug/net6.0/ref/Core.dll
+/Users/ranu.singh/Documents/Shopay 2/Core/bin/Debug/net6.0/Core.pdb
+/Users/ranu.singh/Documents/Shopay 2/Core/obj/Debug/net6.0/Core.csproj.AssemblyReference.cache
+/Users/ranu.singh/Documents/Shopay 2/Core/obj/Debug/net6.0/Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ranu.singh/Documents/Shopay 2/Core/obj/Debug/net6.0/Core.AssemblyInfoInputs.cache
+/Users/ranu.singh/Documents/Shopay 2/Core/obj/Debug/net6.0/Core.AssemblyInfo.cs
+/Users/ranu.singh/Documents/Shopay 2/Core/obj/Debug/net6.0/Core.csproj.CoreCompileInputs.cache
+/Users/ranu.singh/Documents/Shopay 2/Core/obj/Debug/net6.0/Core.dll
+/Users/ranu.singh/Documents/Shopay 2/Core/obj/Debug/net6.0/ref/Core.dll
+/Users/ranu.singh/Documents/Shopay 2/Core/obj/Debug/net6.0/Core.pdb
+/Users/ranu.singh/Documents/Shopay/Core/bin/Debug/net6.0/Core.deps.json
+/Users/ranu.singh/Documents/Shopay/Core/bin/Debug/net6.0/Core.dll
+/Users/ranu.singh/Documents/Shopay/Core/bin/Debug/net6.0/ref/Core.dll
+/Users/ranu.singh/Documents/Shopay/Core/bin/Debug/net6.0/Core.pdb
+/Users/ranu.singh/Documents/Shopay/Core/obj/Debug/net6.0/Core.csproj.AssemblyReference.cache
+/Users/ranu.singh/Documents/Shopay/Core/obj/Debug/net6.0/Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ranu.singh/Documents/Shopay/Core/obj/Debug/net6.0/Core.AssemblyInfoInputs.cache
+/Users/ranu.singh/Documents/Shopay/Core/obj/Debug/net6.0/Core.AssemblyInfo.cs
+/Users/ranu.singh/Documents/Shopay/Core/obj/Debug/net6.0/Core.csproj.CoreCompileInputs.cache
+/Users/ranu.singh/Documents/Shopay/Core/obj/Debug/net6.0/Core.dll
+/Users/ranu.singh/Documents/Shopay/Core/obj/Debug/net6.0/ref/Core.dll
+/Users/ranu.singh/Documents/Shopay/Core/obj/Debug/net6.0/Core.pdb
+/Users/ranu.singh/Documents/Shopay 8.55.24 PM/Core/bin/Debug/net6.0/Core.deps.json
+/Users/ranu.singh/Documents/Shopay 8.55.24 PM/Core/bin/Debug/net6.0/Core.dll
+/Users/ranu.singh/Documents/Shopay 8.55.24 PM/Core/bin/Debug/net6.0/ref/Core.dll
+/Users/ranu.singh/Documents/Shopay 8.55.24 PM/Core/bin/Debug/net6.0/Core.pdb
+/Users/ranu.singh/Documents/Shopay 8.55.24 PM/Core/obj/Debug/net6.0/Core.csproj.AssemblyReference.cache
+/Users/ranu.singh/Documents/Shopay 8.55.24 PM/Core/obj/Debug/net6.0/Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ranu.singh/Documents/Shopay 8.55.24 PM/Core/obj/Debug/net6.0/Core.AssemblyInfoInputs.cache
+/Users/ranu.singh/Documents/Shopay 8.55.24 PM/Core/obj/Debug/net6.0/Core.AssemblyInfo.cs
+/Users/ranu.singh/Documents/Shopay 8.55.24 PM/Core/obj/Debug/net6.0/Core.csproj.CoreCompileInputs.cache
+/Users/ranu.singh/Documents/Shopay 8.55.24 PM/Core/obj/Debug/net6.0/Core.dll
+/Users/ranu.singh/Documents/Shopay 8.55.24 PM/Core/obj/Debug/net6.0/ref/Core.dll
+/Users/ranu.singh/Documents/Shopay 8.55.24 PM/Core/obj/Debug/net6.0/Core.pdb
+C:\Users\ser\Downloads\Shopay 2\Shopay\Core\bin\Debug\net6.0\Core.deps.json
+C:\Users\ser\Downloads\Shopay 2\Shopay\Core\bin\Debug\net6.0\Core.dll
+C:\Users\ser\Downloads\Shopay 2\Shopay\Core\bin\Debug\net6.0\ref\Core.dll
+C:\Users\ser\Downloads\Shopay 2\Shopay\Core\bin\Debug\net6.0\Core.pdb
+C:\Users\ser\Downloads\Shopay 2\Shopay\Core\obj\Debug\net6.0\Core.csproj.AssemblyReference.cache
+C:\Users\ser\Downloads\Shopay 2\Shopay\Core\obj\Debug\net6.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ser\Downloads\Shopay 2\Shopay\Core\obj\Debug\net6.0\Core.AssemblyInfoInputs.cache
+C:\Users\ser\Downloads\Shopay 2\Shopay\Core\obj\Debug\net6.0\Core.AssemblyInfo.cs
+C:\Users\ser\Downloads\Shopay 2\Shopay\Core\obj\Debug\net6.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\ser\Downloads\Shopay 2\Shopay\Core\obj\Debug\net6.0\Core.dll
+C:\Users\ser\Downloads\Shopay 2\Shopay\Core\obj\Debug\net6.0\ref\Core.dll
+C:\Users\ser\Downloads\Shopay 2\Shopay\Core\obj\Debug\net6.0\Core.pdb
+C:\Users\ser\Downloads\Shopay2\Shopay\Core\bin\Debug\net6.0\Core.deps.json
+C:\Users\ser\Downloads\Shopay2\Shopay\Core\bin\Debug\net6.0\Core.dll
+C:\Users\ser\Downloads\Shopay2\Shopay\Core\bin\Debug\net6.0\ref\Core.dll
+C:\Users\ser\Downloads\Shopay2\Shopay\Core\bin\Debug\net6.0\Core.pdb
+C:\Users\ser\Downloads\Shopay2\Shopay\Core\obj\Debug\net6.0\Core.csproj.AssemblyReference.cache
+C:\Users\ser\Downloads\Shopay2\Shopay\Core\obj\Debug\net6.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ser\Downloads\Shopay2\Shopay\Core\obj\Debug\net6.0\Core.AssemblyInfoInputs.cache
+C:\Users\ser\Downloads\Shopay2\Shopay\Core\obj\Debug\net6.0\Core.AssemblyInfo.cs
+C:\Users\ser\Downloads\Shopay2\Shopay\Core\obj\Debug\net6.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\ser\Downloads\Shopay2\Shopay\Core\obj\Debug\net6.0\Core.dll
+C:\Users\ser\Downloads\Shopay2\Shopay\Core\obj\Debug\net6.0\ref\Core.dll
+C:\Users\ser\Downloads\Shopay2\Shopay\Core\obj\Debug\net6.0\Core.pdb
