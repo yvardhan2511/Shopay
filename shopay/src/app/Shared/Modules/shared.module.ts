@@ -4,21 +4,34 @@ import { CommonModule } from '@angular/common';
 import { ReactiveFormsModule } from '@angular/forms';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 
+import{PaginationModule} from'ngx-bootstrap/pagination';
 
+import { PagingHeaderComponent } from '../components/paging-header/paging-header.component';
+
+import { PagerComponent } from '../components/pager/pager.component';
 
 @NgModule({
 
-declarations: [],
+declarations: [
+    PagingHeaderComponent,
+    PagerComponent
+],
 
 imports: [
 
 CommonModule,
 ReactiveFormsModule,
-BsDropdownModule.forRoot()
+BsDropdownModule.forRoot(),
+PaginationModule.forRoot()
 ],
 exports:[
     ReactiveFormsModule,
-    BsDropdownModule
+    BsDropdownModule,
+    PaginationModule,
+
+    PagingHeaderComponent,
+
+    PagerComponent
     
 ]
 

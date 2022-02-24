@@ -1,97 +1,327 @@
 <div class="container">
-    <div class="row">  
-      <section class="col-3">
-  
-        Filters
-  
-        <h5 class="text-warning ml-3">Sort</h5>
-        <ul class="list-group my-3">
-            <li class="list-group-item active" *ngFor="let sort of sortOptions" aria-current="true"
-                [class.active]="sort.value===this.sortSelected" [value]="sort.value"
-                (click)="onSortSelected(sort.value)">{{sort.name}}</li>
 
-        </ul>  
-        <h5 class="text-warning ml-3">Brands</h5>
-  
-        <ul class="list-group my-3 active">
-  
-          <li class="list-group-item active" *ngFor="let brand of brands" aria-current="true"
-  
-            [class.active]="brand.id===this.brandIdSelected" [value]="brand.id" (click)="onBrandSelected(brand.id)">
-  
-            {{brand.name}}</li>
-  
-   
-  
-        </ul>
-  
-        <h5 class="text-warning ml-3">Categories</h5>
-  
-        <ul class="list-group my-3">
-  
-          <li class="list-group-item active" *ngFor="let category of categories" aria-current="true"
-  
-            [class.active]="category.id===this.categoryIdSelected" [value]="category.id"
-  
-            (click)="onCategorySelected(category.id)">{{category.name}}</li>
-  
-   
-  
-        </ul>
-      </section>
-  
-      <section class="col-9">
-  
-        <div class="d-flex justify-content-between align-item-center pb-2">
-  
-          
-  
-        </div>
-  
-        Main Content
-  
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-  
-          <div class="card h-100 shadow-sm" *ngFor="let product of products">
-  
-            <img src={{product.pictureUrl}} alt="{{product.name}} " class="img-fluid">
-  
-            <div class="card-body d-flex flex-column">
-  
-               <a href="#">
-  
-                   <h6 class="text-uppercase">{{product.name}}</h6>
-  
-               </a>
-  
-               <span class="mb-2">Buy:{{product.price | currency}}</span>
-  
-              <span class="mb-2">Rent{{product.rentedPrice | currency}}</span> 
-  
-   
-  
-              <div class="btn-group mt-auto">
-  
-                <button (click)="addToCart(product)" type="button" class="btn btn-sm btn-outline-secondary fa fa-shopping-cart mr-2"
-  
-                  style="margin-left: 40px; margin-right: 40px">Add To Cart</button>
-  
-                <button type="button" class="btn btn-sm btn-outline-secondary mr-3 p-2"
-  
-                  style="margin-left: 40px; margin-right: 40px;">view</button>
-  
-              </div>
-  
-             
-  
-   
-  
-            </div>
-  
-          </div>
-        </div>
-  
+  <div class="row">
+
+ 
+
+    <section class="col-3">
+
+      Filters
+
+      <!-- <h5 class="text-warning ml-3">Sort</h5>
+
+      <select class="custom-select mb-3" (change)="onSortSelected($event.target.value)">
+
+        <option *ngFor="let sort of sortOptions" [value]="sort.value" ;>
+
+          {{sort.name}}
+
+        </option>
+
+ 
+
+      </select> -->
+
+      <h5 class="text-warning ml-3">Sort</h5>
+
+      <ul class="list-group my-3">
+
+        <li class="list-group-item active" *ngFor="let sort of sortOptions" aria-current="true"
+
+          [class.active]="sort.value===this.shopParams.sort" [value]="sort.value" (click)="onSortSelected(sort.value)">
+
+          {{sort.name}}</li>
+
+      </ul>
+
+ 
+
+      <h5 class="text-warning ml-3">Brands</h5>
+
+      <ul class="list-group my-3 active">
+
+        <li class="list-group-item active" *ngFor="let brand of brands" aria-current="true"
+
+          [class.active]="brand.id===this.shopParams.brandId" [value]="brand.id" (click)="onBrandSelected(brand.id)">
+
+          {{brand.name}}</li>
+
+ 
+
+      </ul>
+
+      <h5 class="text-warning ml-3">Categories</h5>
+
+      <ul class="list-group my-3">
+
+        <li class="list-group-item active" *ngFor="let category of categories" aria-current="true"
+
+          [class.active]="category.id===this.shopParams.categoryId" [value]="category.id"
+
+          (click)="onCategorySelected(category.id)">{{category.name}}</li>
+
+ 
+
+      </ul>
+
+ 
+
     </section>
-     </div>
+
+    <section class="col-9">
+
+      <div class="d-flex justify-content-between align-item-center pb-2">
+
+ 
+
+       <!--  <header>
+
+          <span *ngIf="totalCount && totalCount > 0">
+
+            Showing
+
+            <strong>{{(this.shopParams.pageNumber-1)*(this.shopParams.pageSize)+1}} -
+
+              {{(this.shopParams.pageNumber)*(this.shopParams.pageSize)
+
+              >this.totalCount?
+
+             this.totalCount:
+
+              this.shopParams.pageNumber*this.shopParams.pageSize
+
+              }}
+
+            </strong>
+
+            of<strong>{{this.totalCount}}</strong>
+
+            Results</span>
+
+            <span *ngIf="totalCount===0">There are <strong>0</strong> results for this filter</span>
+
+        </header> -->
+
+        <app-paging-header
+
+        [totalCount]="totalCount"
+
+        [pageSize]="this.shopParams.pageSize"
+
+        [pageNumber]="this.shopParams.pageNumber">
+
+ 
+
+        </app-paging-header>
+
+ 
+
+        <div class="form-inline mt-2">
+
+          <input type="text" style="width: 300px;" #search placeholder="search" class="form-control mr-2">
+
+       <!--    <button class="btn btn-outline-primary my-2">Search</button>
+
+          <button class="btn btn-outline-primary ml-2 mx-2 my-2">Reset</button> -->
+
+               <button (click)="onSearch()" class="btn btn-outline-primary my-2">Search</button>
+
+          <button (click)="onReset()" class="btn btn-outline-primary ml-2 mx-2 my-2">Reset</button>
+
+ 
+
+        </div>
+
+      </div>
+
+      Main Content
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+        <div class="card h-100 shadow-sm" *ngFor="let product of products">
+
+          <img src={{product.pictureUrl}} alt="{{product.name}} " class="img-fluid">
+
+ 
+
+          <!--  <img src="/assets/images/logo.jpg" alt="{{products.name}} "  class="img-fluid"> -->
+
+          <div class="card-body d-flex flex-column">
+
+            <a routerLink="/shop/{{product.id}}" routerLinkActive="router-link-active">
+
+              <h6 class="text-uppercase">{{product.name}}</h6>
+
+            </a>
+
+            <span class="mb-2">Buy:{{product.price | currency}}</span>
+
+            <span class="mb-2">Rent{{product.rentedPrice | currency}}</span>
+
+ 
+
+            <div class="btn-group mt-auto">
+
+              <button (click)="addToCart(product)" type="button" class="btn btn-sm btn-outline-secondary fa fa-shopping-cart mr-2 btn-warning " 
+
+                style="margin-left: 40px; margin-right: 40px">Add To Cart</button>
+
+              <button routerLink="/shop/{{product.id}}" routerLinkActive="router-link-active" type="button" 
+
+                class="btn btn-sm btn-outline-secondary mr-3 p-2"
+
+                style="margin-left: 40px; margin-right: 40px;">view</button>
+
+            </div>
+
+ 
+
+          </div>
+
+        </div>
+
+
+
+
+
+      </div>
+
+      <!-- <div class="col-4" *ngFor="let product of products">
+
+    <app-product-item></app-product-item>
+
+</div> -->
+
+<div class="d-flex justify-content-center" *ngIf="totalCount>0">
+
+<!--   <pagination
+
+  [boundaryLinks]="true"
+
+   [totalItems]="this.totalCount"
+
+   (pageChanged)="onPageChanged($event)"
+
+   (itemsPerPage)="this.shopParams.pageSize"
+
+    previousText="&lsaquo;"
+
+     nextText="&rsaquo;"
+
+    firstText="&laquo;"
+
+    lastText="&raquo;">
+
+  </pagination> -->
+
+ 
+
+  <app-pager
+
+  [pageSize]="this.shopParams.pageSize"
+
+  [totalCount]="totalCount"
+
+  (pageChanged)="onPageChanged($event)"
+
+  ></app-pager>
+
+</div>
+
+    
+
+    
+
+    </section>
+
   </div>
+
+</div>
+
+
+
+
+
+<!-- <div class="col-4" *ngFor="let item of products">
+
+  <app-product-item [product]="item"></app-product-item>
+
+</div> -->
+
+<!-- <app-product-item></app-product-item> -->
+
+<!-- div class="col" *ngFor="let product of products">
+
+  <div class="card shadow-sm">
+
+    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns={{product.pictureUrl}} role="img"
+
+      aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+      <title>Placeholder</title>
+
+      <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+
+        dy=".3em">Thumbnail</text>
+
+    </svg>
+
+ 
+
+    <div class="card-body">
+
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+
+        content. This content is a little bit longer.</p>
+
+      <div class="d-flex justify-content-between align-items-center">
+
+        <div class="btn-group">
+
+          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+
+          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+
+        </div>
+
+        <small class="text-muted">9 mins</small>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div> -->
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -7,7 +7,8 @@ import { ShopComponent } from './COMPONENTS/shop/shop.component';
 import { PaymentComponent } from './PAGES/payment/payment.component';
 import {OrderComponent } from './PAGES/order/order.component';
 import { InvoiceComponent } from './PAGES/invoice/invoice.component';
-import { RegisterComponent } from './PAGES/register/register.component';
+import { RegisterComponent } from './account/register/register.component';
+import { ProductDetailsComponent } from './COMPONENTS/shop/product-details/product-details.component';
 const routes: Routes = [
   {path:'', component: HomeComponent },
   { path:'login', component: LoginComponent},
@@ -16,7 +17,8 @@ const routes: Routes = [
   { path: 'payment', component: PaymentComponent},
   { path: 'order', component: OrderComponent },
   { path: 'invoice', component: InvoiceComponent},
-  { path: 'register', component: RegisterComponent}
+  { path: 'register', component: RegisterComponent},
+  {path:'shop/:id',component:ProductDetailsComponent},
 ];
 
 @NgModule({

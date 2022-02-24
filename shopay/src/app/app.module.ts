@@ -26,10 +26,15 @@ import { ShopComponent } from './COMPONENTS/shop/shop.component';
 import { PaymentComponent } from './PAGES/payment/payment.component';
 import { OrderComponent } from './PAGES/order/order.component';
 import { InvoiceComponent } from './PAGES/invoice/invoice.component';
-import { RegisterComponent } from './PAGES/register/register.component';
+
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { SharedModule } from './Shared/Modules/shared.module';
-
+//import { RegisterComponent } from './account/register/register.component';
+import { ToastrModule } from 'ngx-toastr';
+import { PagerComponent } from './Shared/components/pager/pager.component';
+import { PagingHeaderComponent } from './Shared/components/paging-header/paging-header.component';
+import { RegisterComponent } from './account/register/register.component';
+import { PaginationModule } from 'ngx-bootstrap/pagination';
 @NgModule({
   declarations: [
     AppComponent,
@@ -45,8 +50,9 @@ import { SharedModule } from './Shared/Modules/shared.module';
     PaymentComponent,
     OrderComponent,
     InvoiceComponent,
-    RegisterComponent,
-    
+    RegisterComponent
+    //PagerComponent,
+    //PagingHeaderComponent,
     
     
   ],
@@ -66,7 +72,9 @@ import { SharedModule } from './Shared/Modules/shared.module';
     ModalModule.forRoot(),
     FormsModule,
     ReactiveFormsModule,
-    SharedModule
+    SharedModule,
+    ToastrModule.forRoot(),
+    PaginationModule.forRoot()
   ],
   
   exports: [BsDropdownModule,TooltipModule,ModalModule,ShopComponent,FormsModule,
